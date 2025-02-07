@@ -10,7 +10,7 @@ import western from '../assets/western.webp';
 function Index() {
   return (
     <div className="flex justify-center items-center w-full pt-5">
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center w-[30%] flex-shrink-0">
         <Link to="/salto"><img src={salto2} alt="Salto" className="my-2 w-[350px] h-[250px] object-cover border-4 border-[rgb(73,36,1)] rounded-[20%]"
         /></Link>
         <Link to="/doma"><img src={doma2} alt="Doma" className="my-2 w-[350px] h-[250px] object-cover border-4 border-[rgb(73,36,1)] rounded-[20%]"
@@ -19,7 +19,7 @@ function Index() {
         /></Link>
       </div>
 
-      <div className="flex flex-col items-center w-[50.00rem] m-auto text-center bg-[rgb(228,209,170)]">
+      <div className="flex flex-col items-center w-[50.00rem] min-w-[600px] m-auto text-center bg-[rgb(228,209,170)]">
         <h2 data-key="encabezado" className="m-5 pt-3 text-3xl font-bold">¿Qué es la equitación?</h2>
         <p data-key="texto1" className="text-left m-5 p-1">La equitación es el arte de montar a caballo, una especialidad dentro de los deportes ecuestres en la que se evalúa tanto al jinete como al caballo. Pero lo cierto es que, si bien ellos son los protagonistas, aspectos como la vestimenta o la limpieza y el pulido del caballo son otros factores de gran importancia. En la equitación, el jinete ha de demostrar sus habilidades y destrezas en el dominio del caballo, manteniéndose en equilibrio con el animal, mostrando la postura correcta en cada movimiento y haciendo gala de una actitud dominante y relajada a la vez, dirigiendo al caballo con total soltura y determinación.
         </p>
@@ -35,7 +35,7 @@ function Index() {
         <img className="w-[37.50rem]" src={portada} alt="portada" />
       </div>
 
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center w-[30%] flex-shrink-0">
         <Link to="/volteo"><img src={volteo} alt="Volteo" className="my-2 w-[350px] h-[250px] object-cover border-4 border-[rgb(73,36,1)] rounded-[20%]"/></Link>
         <Link to="/domaVaquera"><img src={domaVaquera} alt="Doma Vaquera"className="my-2 w-[350px] h-[250px] object-cover border-4 border-[rgb(73,36,1)] rounded-[20%]" /></Link>
         <Link to="/western"><img src={western} alt="Western" className="my-2 w-[350px] h-[250px] object-cover border-4 border-[rgb(73,36,1)] rounded-[20%]" /></Link>
