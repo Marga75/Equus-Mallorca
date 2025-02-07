@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { useLocation } from "react-router-dom";
 
 function Footer() {
@@ -6,19 +6,19 @@ function Footer() {
 
   const location = useLocation();
 
-  const obtenerPaginaActual = () => {
+  const obtenerPaginaActual = useCallback(() => {
     const pagina = location.pathname.split("/").pop();
     if (!pagina || pagina === "index.html") return "Index";
     return (
       pagina.replace(".html", "").charAt(0).toUpperCase() + pagina.slice(1)
     );
-  };
+  }, [location.pathname]); // Depende solo de location.pathname
 
   const [paginaActual, setPaginaActual] = useState(obtenerPaginaActual());
 
   useEffect(() => {
     setPaginaActual(obtenerPaginaActual());
-  }, [location]);
+  }, [obtenerPaginaActual]);  // Ahora se incluye correctamente como dependencia
 
   useEffect(() => {
     const cargarTraducciones = async () => {
