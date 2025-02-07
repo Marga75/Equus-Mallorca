@@ -9,7 +9,7 @@ import western from '../assets/western.webp';
 
 function Index() {
   return (
-    <div className="flex justify-center items-center w-full pt-5">
+    <div className="flex justify-center items-center w-full pt-5 mb-5">
       <div className="flex flex-col items-center w-[30%] flex-shrink-0">
         <Link to="/salto"><img src={salto2} alt="Salto" className="my-2 w-[350px] h-[250px] object-cover border-4 border-[rgb(73,36,1)] rounded-[20%]"
         /></Link>
