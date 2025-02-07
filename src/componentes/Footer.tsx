@@ -7,7 +7,7 @@ function Footer() {
   const location = useLocation();
 
   const obtenerPaginaActual = () => {
-    let pagina = location.pathname.split("/").pop();
+    const pagina = location.pathname.split("/").pop();
     if (!pagina || pagina === "index.html") return "Index";
     return (
       pagina.replace(".html", "").charAt(0).toUpperCase() + pagina.slice(1)
