@@ -5,9 +5,9 @@ import Navbar from "./componentes/Navbar";
 import Footer from "./componentes/Footer";
 import Index from "./paginas/Index";
 import Salto from './paginas/Salto';
-/*
 import Doma from './paginas/Doma';
 import Carreras from './paginas/Carreras';
+/*
 import Volteo from './paginas/Volteo';
 import DomaVaquera from './paginas/DomaVaquera';
 import Western from './paginas/Western';
@@ -25,9 +25,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/salto" element={<Salto />} />
-            {/*
             <Route path="/doma" element={<Doma />} />
             <Route path="/carreras" element={<Carreras />} />
+            {/*
             <Route path="/volteo" element={<Volteo />} />
             <Route path="/domaVaquera" element={<DomaVaquera />} />
             <Route path="/western" element={<Western />} />
