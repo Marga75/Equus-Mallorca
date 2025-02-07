@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="flex justify-between items-center bg-[rgb(73,36,1)] p-2 sticky top-0 text-cyan-50">
+    <nav className="flex justify-between items-center bg-[rgb(73,36,1)] p-2 sticky top-0 text-cyan-50 w-full z-50">
       <div className="flex items-center">
         <Link to="/" data-key="menu" className="hover:text-[rgb(248,233,200)] hover:underline">
           Inicio

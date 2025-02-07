@@ -12,4 +12,5 @@ body{
   background-image: url("assets/patron.webp");
   height: 100vh;
   color: rgb(73,36,1);
+  overflow-x: hidden;
 }
