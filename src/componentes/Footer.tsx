@@ -53,19 +53,19 @@ function Footer() {
     cargarTraducciones();
   }, [idioma, paginaActual]);
 
-  const cambiarIdioma = (event) => {
+  const cambiarIdioma = (event: React.ChangeEvent<HTMLSelectElement>) => {
     const idiomaSeleccionado = event.target.value;
     localStorage.setItem("idioma", idiomaSeleccionado);
     setIdioma(idiomaSeleccionado);
   };
 
   return (
-    <footer className="bg-gray-800 text-white p-4">
-      <div className="selectorIdioma">
-        <label data-key="lenguaje" htmlFor="idioma">
+    <footer className="bg-yellow-950 text-white text-center m-0 p-5 absolute w-full">
+      <div className="m-auto inline-block">
+        <label data-key="lenguaje" htmlFor="idioma" className="mx-2">
           Selecciona un idioma:
         </label>
-        <select id="idioma" onChange={cambiarIdioma} value={idioma}>
+        <select id="idioma" onChange={cambiarIdioma} value={idioma} className="rounded text-black">
           <option value="es">Español</option>
           <option value="en">English</option>
         </select>
