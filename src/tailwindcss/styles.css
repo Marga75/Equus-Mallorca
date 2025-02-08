@@ -35,7 +35,7 @@ img {
 }
 
 .img-central {
-  @apply w-[37.50rem] mb-3 mx-auto;
+  @apply w-[37.50rem] mb-3 mx-auto h-[27.50rem];
 }
 
 table {

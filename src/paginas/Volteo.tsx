@@ -3,23 +3,23 @@ import volteo from "../assets/volteo2.webp";
 function Volteo() {
   return (
     <>
-      <div className="w-[50.00rem] m-auto bg-[rgb(228,209,170)] grid mt-5 mb-5">
-        <h2 data-key="subtitulo" className="m-5 pt-2.5 text-3xl font-bold text-center">
+      <div className="intro">
+        <h2 data-key="subtitulo" className="apartado">
           Volteo en Mallorca
         </h2>
 
-        <p data-key="texto1" className="m-5 p-1">
+        <p data-key="texto1">
           El volteo es una modalidad de gimnasia realizada sobre un caballo en
           movimiento, el cual avanza al galope en círculos mientras es guiado
           por un conductor a la cuerda.
         </p>
 
-        <h3 data-key="apartado1" className="text-2xl font-bold text-center mt-9">Clubs de Volteo en Mallorca</h3>
-        <p data-key="texto2" className="m-5 p-1">
+        <h3 data-key="apartado1">Clubs de Volteo en Mallorca</h3>
+        <p data-key="texto2">
           En Mallorca, los clubes que practican esta disciplina son:
         </p>
-        <div className="w-full flex justify-start">
-          <ul className="text-left list-inside ml-12 list-disc">
+        <div className="lista">
+          <ul>
             <li data-key="lista1">Club Hípico La Gubia</li>
             <li data-key="lista2">Club Equitació S’Espiga</li>
             <li data-key="lista3">Club Hípico Es Pi</li>
@@ -29,9 +29,9 @@ function Volteo() {
           </ul>
         </div>
 
-        <h3 data-key="apartado2" className="text-2xl font-bold text-center mt-9">Participantes</h3>
-        <div className="w-full flex justify-start">
-          <ul className="text-left list-inside ml-12 list-disc">
+        <h3 data-key="apartado2">Participantes</h3>
+        <div className="lista">
+          <ul>
             <li data-key="lista7">
               <strong>Volteadores:</strong> Son los atletas que ejecutan los
               ejercicios sobre el caballo. No solo deben concentrarse en sus
@@ -51,9 +51,9 @@ function Volteo() {
           </ul>
         </div>
 
-        <h3 data-key="apartado3" className="text-2xl font-bold text-center mt-9">Categorías y Niveles</h3>
-        <div className="w-full flex justify-start">
-          <ul className="text-left list-inside ml-12 list-disc">
+        <h3 data-key="apartado3">Categorías y Niveles</h3>
+        <div className="lista">
+          <ul>
             <li data-key="lista10">
               <strong>Modalidades:</strong> El volteo puede realizarse en
               equipos (grupos), en parejas o de forma individual.
@@ -69,13 +69,13 @@ function Volteo() {
           </ul>
         </div>
 
-        <h3 data-key="apartado4" className="text-2xl font-bold text-center mt-9">Calificaciones</h3>
-        <p data-key="texto3" className="m-5 p-1">
+        <h3 data-key="apartado4">Calificaciones</h3>
+        <p data-key="texto3">
           1. <strong>Ejercicios Obligatorios:</strong> En esta fase, los jueces
           evaluarán:
         </p>
-        <div className="w-full flex justify-start">
-          <ul className="text-left list-inside ml-12 list-disc">
+        <div className="lista">
+          <ul>
             <li data-key="lista13">Técnica y tensión corporal</li>
             <li data-key="lista14">Seguridad en la ejecución</li>
             <li data-key="lista15">Ligereza y precisión</li>
@@ -87,14 +87,14 @@ function Volteo() {
             </li>
           </ul>
         </div>
-        <p data-key="texto4" className="m-5 p-1">
+        <p data-key="texto4">
           Las puntuaciones van de 0 a 10, donde 0 indica que el ejercicio no fue
           realizado y 10 representa una ejecución sobresaliente.
         </p>
 
         <br />
 
-        <p data-key="texto5" className="m-5 p-1">
+        <p data-key="texto5">
           2. <strong>Kür:</strong> En esta parte, los volteadores tienen la
           libertad de crear su propia coreografía y elegir los ejercicios a
           ejecutar. Se valoran especialmente la creatividad y la calidad de la
@@ -103,18 +103,18 @@ function Volteo() {
           del volteador.
         </p>
 
-        <p data-key="texto6" className="m-5 p-1">
+        <p data-key="texto6">
           La <strong>Kür</strong> incluye ejercicios estáticos y dinámicos. Para
           los ejercicios estáticos, la posición debe mantenerse durante tres
           trancos de paso o tres tiempos de galope, de lo contrario, no se
           contabilizará el grado de dificultad.
         </p>
 
-        <p data-key="texto7" className="m-5 p-1">
+        <p data-key="texto7">
           Las calificaciones en la kür se basan en los siguientes criterios:
         </p>
-        <div className="w-full flex justify-start">
-          <ul className="text-left list-inside ml-12 list-disc">
+        <div className="lista">
+          <ul>
             <li data-key="lista18">
               <strong>Ejecución:</strong> Calidad de cada ejercicio comparado
               con el ideal, puntuado de 0 a 10.
@@ -137,12 +137,12 @@ function Volteo() {
           </ul>
         </div>
 
-        <p data-key="texto8" className="m-5 p-1">
+        <p data-key="texto8">
           Dependiendo de la categoría y nivel, algunos criterios como dificultad
           e impresión final pueden no ser evaluados.
         </p>
 
-        <img className="w-[37.50rem] mb-3 mx-auto" src={volteo} alt="volteo" />
+        <img className="img-central" src={volteo} alt="volteo" />
       </div>
     </>
   );
