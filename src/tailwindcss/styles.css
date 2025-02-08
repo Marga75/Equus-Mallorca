@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.intro {
+  @apply w-[50.00rem] m-auto bg-[rgb(228,209,170)] grid mt-5 mb-5;
+}
+
+.apartado {
+  @apply m-5 pt-2.5 text-3xl font-bold text-center;
+}
+
+p {
+  @apply m-5 p-1;
+}
+
+h3 {
+  @apply text-2xl font-bold text-center mt-9;
+}
+
+.lista {
+  @apply w-full flex justify-start;
+}
+
+ul {
+  @apply text-left list-inside ml-12 list-disc;
+}
+
+ol{
+    @apply text-left list-inside ml-12 list-decimal;
+}
+
+img {
+  @apply mx-auto;
+}
+
+.img-central {
+  @apply w-[37.50rem] mb-3 mx-auto;
+}
+
+table {
+  @apply border-collapse ml-5 mr-5 mb-5;
+}
+
+thead, tbody{
+    @apply text-left p-3;
+}
+
+th, td{
+    @apply border border-[rgb(73,36,1)] px-3;
+}
