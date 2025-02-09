@@ -10,9 +10,9 @@ import Carreras from './paginas/Carreras';
 import Volteo from './paginas/Volteo';
 import DomaVaquera from './paginas/DomaVaquera';
 import Western from './paginas/Western';
+import CalculadoraExperiencia from './paginas/CalculadoraExperiencia';
 /*
 import Contacto from './paginas/Contacto';
-import CalculadoraExperiencia from './paginas/CalculadoraExperiencia';
 */
 
 function App() {
@@ -30,11 +30,11 @@ function App() {
             <Route path="/volteo" element={<Volteo />} />
             <Route path="/domaVaquera" element={<DomaVaquera />} />
             <Route path="/western" element={<Western />} />
-            {/*
             <Route
               path="/calculadoraExperiencia"
               element={<CalculadoraExperiencia />}
             />
+            {/*
             <Route path="/contacto" element={<Contacto />} /> 
             */}
           </Routes>
