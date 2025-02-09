@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.contenedor-formulario {
+  @apply w-[50.00rem] m-auto text-center bg-[rgb(228,209,170)] h-[47.00rem] mb-5;
+}
+
+.calculadora {
+  @apply m-5 pt-5 text-[50px] font-bold;
+}
+
+.formulario {
+  @apply max-w-[37.50rem] my-6 m-auto p-5 rounded-lg bg-[rgb(166,148,112)] shadow-md;
+}
+
+label {
+  @apply block mt-3.5 mx-0 mb-1 font-bold;
+}
+
+.opcion {
+  @apply inline;
+}
+
+#calcular {
+  @apply text-white py-2 px-5 rounded-md cursor-pointer text-base bg-green-600 hover:bg-green-700;
+}
+
+#resultado {
+  @apply mt-10 text-xl leading-7;
+}
