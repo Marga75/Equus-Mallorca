@@ -11,9 +11,7 @@ import Volteo from './paginas/Volteo';
 import DomaVaquera from './paginas/DomaVaquera';
 import Western from './paginas/Western';
 import CalculadoraExperiencia from './paginas/CalculadoraExperiencia';
-/*
 import Contacto from './paginas/Contacto';
-*/
 
 function App() {
   return (
@@ -34,9 +32,7 @@ function App() {
               path="/calculadoraExperiencia"
               element={<CalculadoraExperiencia />}
             />
-            {/*
             <Route path="/contacto" element={<Contacto />} /> 
-            */}
           </Routes>
         </main>
 
