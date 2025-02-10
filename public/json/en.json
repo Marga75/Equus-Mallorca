@@ -316,6 +316,7 @@
         "opcion6": "Several times a month",
         "pregunta3": "Have you ridden on trails with uneven terrain?",
         "opcion7": "Yes",
+        "calcular": "Calculate level",
         "lenguaje":"Select a language:"
     }
 }
