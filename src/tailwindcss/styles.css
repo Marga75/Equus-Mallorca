@@ -1,3 +1,18 @@
+/* 
+Para que no salga el error: Unknown at rule
+- Ctrl + Shift + P (en Windows)
+- Cmd + Shift + P (en Mac)
+Escribe: Preferences: Oppen Settings(JSON)
+Saldrán 3 opciones, selecciona: Open User Settings
+
+Agrega:
+"files.associations": {
+  "*.css: "tailwindcss"
+}
+
+De esta manera ya no sale el problema
+*/
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
